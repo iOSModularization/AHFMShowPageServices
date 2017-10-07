@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMShowPageServices_Example' do
+  pod 'AHFMShowPageServices', :path => '../'
+
+  target 'AHFMShowPageServices_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
